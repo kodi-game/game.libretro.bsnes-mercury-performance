@@ -8,17 +8,21 @@ enable_language(CXX)
 
 include(ExternalProject)
 
+if(NOT BSNES_PROFILE)
+  set(BSNES_PROFILE accuracy)
+endif()
+
 if(CMAKE_BUILD_TYPE MATCHES Debug)
   set(LIBRETRO_DEBUG debug=1)
 endif()
 
 if("${CORE_SYSTEM_NAME}" STREQUAL "windows")
   find_package(MinGW REQUIRED)
-  set(BUILD_COMMAND ${MINGW_MAKE} platform=win ${LIBRETRO_DEBUG})
+  set(BUILD_COMMAND ${MINGW_MAKE} platform=win profile=${BSNES_PROFILE} ${LIBRETRO_DEBUG})
 elseif("${CORE_SYSTEM_NAME}" STREQUAL "linux")
-  set(BUILD_COMMAND make ${LIBRETRO_DEBUG})
+  set(BUILD_COMMAND make profile=${BSNES_PROFILE} ${LIBRETRO_DEBUG})
 elseif("${CORE_SYSTEM_NAME}" STREQUAL "darwin" OR "${CORE_SYSTEM_NAME}" STREQUAL "osx")
-  set(BUILD_COMMAND make platform=osx ${LIBRETRO_DEBUG})
+  set(BUILD_COMMAND make platform=osx profile=${BSNES_PROFILE} ${LIBRETRO_DEBUG})
 elseif("${CORE_SYSTEM_NAME}" STREQUAL "ios")
   message(FATAL_ERROR "${PROJECT_NAME} needs IOS build command in CMakeLists.txt!")
 elseif("${CORE_SYSTEM_NAME}" STREQUAL "android")
@@ -31,7 +35,7 @@ else()
   message(FATAL_ERROR "${PROJECT_NAME} - Unknown system: ${CORE_SYSTEM_NAME}")
 endif()
 
-externalproject_add(${PROJECT_NAME}
+externalproject_add(${PROJECT_NAME}-${BSNES_PROFILE}
                     SOURCE_DIR ${PROJECT_SOURCE_DIR}
                     PREFIX ${PROJECT_NAME}
                     CONFIGURE_COMMAND ""
@@ -40,8 +44,8 @@ externalproject_add(${PROJECT_NAME}
                     BUILD_IN_SOURCE 1)
 
 #install the generated shared library
-install(FILES ${PROJECT_SOURCE_DIR}/out/bsnes_mercury_accuracy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX}
+install(FILES ${PROJECT_SOURCE_DIR}/out/bsnes_mercury_${BSNES_PROFILE}_libretro${CMAKE_SHARED_LIBRARY_SUFFIX}
         DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
 
 # write the config.cmake script
-file(WRITE ${CMAKE_INSTALL_PREFIX}/libretro-bsnes-mercury-config.cmake "set(BSNES_MERCURY_LIB ${CMAKE_INSTALL_PREFIX}/lib/bsnes_mercury_accuracy_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
+file(WRITE ${CMAKE_INSTALL_PREFIX}/libretro-${PROJECT_NAME}-${BSNES_PROFILE}-config.cmake "set(BSNES_MERCURY_LIB ${CMAKE_INSTALL_PREFIX}/lib/bsnes_mercury_${BSNES_PROFILE}_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")

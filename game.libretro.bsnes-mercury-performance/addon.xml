@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="game.libretro.bsnes-mercury" name="SNES (bSNES Mercury)" version="0.94.0" provider-name="Libretro">
+<addon id="game.libretro.bsnes-mercury-performance" name="SNES (bSNES Mercury &quot;Performance&quot;)" version="0.94.0" provider-name="Libretro">
   <requires>
     <import addon="game.libretro" version="1.0.0"/>
     <import addon="game.controller.snes" version="1.0.0"/>
   </requires>
   <extension point="kodi.gameclient"
-             library_android="libgame.libretro.bsnes-mercury.so"
-             library_linux="game.libretro.bsnes-mercury.so"
-             library_osx="game.libretro.bsnes-mercury.dylib"
-             library_windx="game.libretro.bsnes-mercury.dll">
+             library_android="libgame.libretro.bsnes-mercury-performance.so"
+             library_linux="game.libretro.bsnes-mercury-performance.so"
+             library_osx="game.libretro.bsnes-mercury-performance.dylib"
+             library_windx="game.libretro.bsnes-mercury-performance.dll">
     <platforms>SNES</platforms>
     <extensions>sfc|smc|bml</extensions>
     <supports_vfs>true</supports_vfs>
@@ -17,6 +17,8 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">bSNES Mercury v0.94</summary>
     <description>bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.
+
+The "Performance" profile focusses more on execution speed than on accuracy.
 
 Supported files: .sfc, .smc, .bml
 
