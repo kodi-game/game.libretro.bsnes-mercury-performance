@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="game.libretro.bsnes-mercury-performance" name="SNES (bSNES Mercury &quot;Performance&quot;)" version="0.94.0" provider-name="Libretro">
+<addon id="game.libretro.bsnes-mercury-performance" name="SNES (default)" version="0.94.0" provider-name="Libretro">
   <requires>
     <import addon="game.libretro" version="1.0.0"/>
     <import addon="game.controller.snes" version="1.0.0"/>
