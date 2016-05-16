@@ -5,10 +5,7 @@
     <import addon="game.controller.snes" version="1.0.0"/>
   </requires>
   <extension point="kodi.gameclient"
-             library_android="libgame.libretro.bsnes-mercury-performance.so"
-             library_linux="game.libretro.bsnes-mercury-performance.so"
-             library_osx="game.libretro.bsnes-mercury-performance.dylib"
-             library_windx="game.libretro.bsnes-mercury-performance.dll">
+             library_@PLATFORM@="@LIBRARY_FILENAME@">
     <platforms>SNES</platforms>
     <extensions>sfc|smc|bml</extensions>
     <supports_vfs>true</supports_vfs>
@@ -25,7 +22,7 @@ Supported files: .sfc, .smc, .bml
 http://byuu.org/
 
 License: GPLv3</description>
-    <platform>all</platform>
+    <platform>@PLATFORM@</platform>
     <nofanart>true</nofanart>
   </extension>
 </addon>
