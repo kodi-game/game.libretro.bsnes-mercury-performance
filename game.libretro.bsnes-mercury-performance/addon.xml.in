@@ -9,7 +9,8 @@
     <platforms>SNES</platforms>
     <extensions>sfc|smc|bml</extensions>
     <supports_vfs>true</supports_vfs>
-    <supports_no_game>false</supports_no_game>
+    <supports_standalone>false</supports_standalone>
+    <supports_keyboard>false</supports_keyboard>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">bSNES Mercury v0.94</summary>
@@ -19,10 +20,9 @@ The "Performance" profile focusses more on execution speed than on accuracy.
 
 Supported files: .sfc, .smc, .bml
 
-http://byuu.org/
-
-License: GPLv3</description>
+http://byuu.org/</description>
     <platform>@PLATFORM@</platform>
+    <license>GPLv3</license>
     <nofanart>true</nofanart>
   </extension>
 </addon>
