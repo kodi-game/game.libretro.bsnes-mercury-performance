@@ -17,7 +17,7 @@
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">SNES / Super Famicom (bsnes-mercury Performance) v094 (Performance)</summary>
+		<summary lang="en">SNES / Super Famicom (bsnes-mercury Performance) v094 (Performance) 082f907</summary>
 		<description>bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.
 
 The &#34;Performance&#34; profile focusses more on execution speed than on accuracy.
