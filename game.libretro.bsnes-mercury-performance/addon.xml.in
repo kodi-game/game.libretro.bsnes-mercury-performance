@@ -22,9 +22,9 @@
 
 The &#34;Performance&#34; profile focusses more on execution speed than on accuracy.
 
-Supported files: .sfc, .smc, .bml
+http://byuu.org/
 
-http://byuu.org/</description>
+Supported files: .sfc, .smc, .bml</description>
 		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
 		<assets>
