@@ -21,14 +21,30 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Special chip accuracy"
+msgid "Preferred aspect ratio"
 msgstr ""
 
 msgctxt "#30002"
-msgid "SuperFX speed"
+msgid "Special chip accuracy"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Respect accuracy-impacting settings"
+msgid "Crop overscan"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Gamma ramp (requires restart)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "System region"
+msgstr ""
+
+msgctxt "#30006"
+msgid "SuperFX speed"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Allow settings to reduce accuracy"
 msgstr ""
 
