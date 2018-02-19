@@ -17,8 +17,6 @@
 		<extensions>sfc|smc|bml</extensions>
 		<supports_vfs>true</supports_vfs>
 		<supports_standalone>false</supports_standalone>
-		<supports_keyboard>false</supports_keyboard>
-		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Nintendo - SNES / Famicom (bsnes-mercury Performance) v094 (Performance)</summary>
