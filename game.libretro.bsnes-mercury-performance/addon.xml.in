@@ -29,6 +29,7 @@ http://byuu.org/
 Supported files: .sfc, .smc, .bml</description>
 		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.bsnes-mercury-performance</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<screenshot>resources/screenshot-01.jpg</screenshot>
