@@ -1,1 +1,1 @@
-bsnes-mercury-performance https://github.com/libretro/bsnes-mercury master
+bsnes-mercury-performance https://github.com/libretro/bsnes-mercury/archive/4e221df676ffc7b46d083cf2ae100131eabe5076.zip
