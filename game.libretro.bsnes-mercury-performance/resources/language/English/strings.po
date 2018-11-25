@@ -47,4 +47,3 @@ msgstr ""
 msgctxt "#30007"
 msgid "Allow settings to reduce accuracy"
 msgstr ""
-
