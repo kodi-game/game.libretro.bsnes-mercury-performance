@@ -4,7 +4,7 @@ Maintainer: wsnipex <wsnipex@a1.net>
 Build-Depends: debhelper (>= 9.0.0),
                cmake,
                kodi-addon-dev,
-               bsnes-mercury-performance (>= 0.94.0)
+               libretro-bsnes-mercury-performance (>= 0.94.0) | bsnes-mercury-performance (>= 0.94.0)
 Standards-Version: 3.9.8
 Section: libs
 
