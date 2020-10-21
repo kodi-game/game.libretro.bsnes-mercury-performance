@@ -7,7 +7,7 @@ include(ExternalProject)
 
 string(TOUPPER ${PROJECT_NAME} PROJECT_NAME_UC)
 
-set(LIBRETRO_BINARY_DIR out)
+set(LIBRETRO_BINARY_DIR .)
 set(LIBRETRO_SONAME bsnes_mercury_performance_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
 set(LIBRETRO_JNISONAME libretro_bsnes_mercury_performance${CMAKE_SHARED_LIBRARY_SUFFIX})
 
