@@ -14,15 +14,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
-"n % 10 == 0) ? 2 : 3));\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));\n"
 
 msgctxt "#30000"
 msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Preferred aspect ratio"
+msgid "Allow settings to reduce accuracy"
 msgstr ""
 
 msgctxt "#30002"
@@ -30,21 +29,21 @@ msgid "Special chip accuracy"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Crop overscan"
-msgstr ""
-
-msgctxt "#30004"
-msgid "Gamma ramp (requires restart)"
-msgstr ""
-
-msgctxt "#30005"
-msgid "System region"
-msgstr ""
-
-msgctxt "#30006"
 msgid "SuperFX speed"
 msgstr ""
 
+msgctxt "#30004"
+msgid "System region"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Preferred aspect ratio"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Crop overscan"
+msgstr ""
+
 msgctxt "#30007"
-msgid "Allow settings to reduce accuracy"
+msgid "Gamma ramp (requires restart)"
 msgstr ""
