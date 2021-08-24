@@ -19,12 +19,6 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-
-The &#34;Performance&#34; profile focuses more on execution speed than on accuracy.
-
-http://byuu.org/
-
-Supported files: .sfc, .smc, .bml</description>
 		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.bsnes-mercury-performance</source>
@@ -35,12 +29,6 @@ Supported files: .sfc, .smc, .bml</description>
 			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 		<summary lang="en_GB">Nintendo - SNES / SFC (bsnes-mercury Performance) v094 (Performance)</summary>
-		<description lang="en_GB">bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.
-
-The &#34;Performance&#34; profile focuses more on execution speed than on accuracy.
-
-http://byuu.org/
-
-Supported files: .sfc, .smc, .bml</description>
+		<description lang="en_GB">bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.[CR][CR]The &#34;Performance&#34; profile focuses more on execution speed than on accuracy.[CR][CR]http://byuu.org/[CR][CR]Supported files: .sfc, .smc, .bml</description>
 	</extension>
 </addon>
