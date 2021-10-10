@@ -25,6 +25,10 @@ msgctxt "Addon Description"
 msgid "bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.[CR][CR]The &#34;Performance&#34; profile focuses more on execution speed than on accuracy."
 msgstr ""
 
+msgctxt "Addon Disclaimer"
+msgid "In loving memory of Near / Byuu"
+msgstr ""
+
 msgctxt "#30000"
 msgid "Settings"
 msgstr "Настройки"
