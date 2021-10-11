@@ -30,7 +30,7 @@
 			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 		<summary lang="en_GB">Nintendo - SNES / SFC (bsnes-mercury Performance) v094 (Performance)</summary>
-		<description lang="en_GB">bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.[CR][CR]The &#34;Performance&#34; profile focuses more on execution speed than on accuracy.</description>
+		<description lang="en_GB">bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.[CR][CR]The &quot;Performance&quot; profile focuses more on execution speed than on accuracy.</description>
 		<disclaimer lang="en_GB">In loving memory of Near / Byuu</disclaimer>
 	</extension>
 </addon>
