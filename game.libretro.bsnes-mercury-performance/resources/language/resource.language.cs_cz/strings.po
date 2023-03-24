@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 msgctxt "Addon Summary"
-msgid "Nintendo - SNES / SFC (bsnes-mercury Performance) v094 (Performance)"
+msgid "Nintendo - SNES / SFC (bsnes-mercury Performance)"
 msgstr ""
 
 msgctxt "Addon Description"
