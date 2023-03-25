@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.bsnes-mercury-performance"
 		name="Nintendo - SNES / SFC (bsnes-mercury Performance)"
-		version="0.94.0.26"
+		version="0.94.0.27"
 		provider-name="Near, Alcaro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
