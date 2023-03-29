@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/kodi-game/game.libretro.bsnes-mercury-performance.svg?branch=master)](https://travis-ci.org/kodi-game/game.libretro.bsnes-mercury-performance)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/kodi-game/game.libretro.bsnes-mercury-performance?svg=true)](https://ci.appveyor.com/project/kodi-game/game-libretro-bsnes-mercury-performance)
-
 # Nintendo - SNES / SFC (bsnes-mercury Performance)
 
 ### Description
