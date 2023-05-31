@@ -32,6 +32,7 @@
 		<summary lang="da_DK">Nintendo - SNES / SFC (bsnes-mercury Performance)</summary>
 		<summary lang="en_GB">Nintendo - SNES / SFC (bsnes-mercury Performance)</summary>
 		<summary lang="es_ES">Nintendo - SNES / SFC (bsnes-mercury Rendimiento)</summary>
+		<summary lang="zh_CN">任天堂 - SNES / SFC（bsnes-mercury 性能）</summary>
 		<description lang="da_DK">bSNES Mercury er en fork af Higan (oprindeligt kaldet bSNES), kendt for at emulere den originale hardware så nøjagtigt som muligt gennem lav-niveau, cyklus-nøjagtig emulering.[CR][CR][I]Ydeevne[/I]-profilen fokuserer mere på udførelseshastighed end på nøjagtighed.</description>
 		<description lang="de_DE">bSNES Mercury ist ein Ableger von Higan (ursprünglich bSNES), der sich durch eine möglichst genaue Emulation der Originalhardware auszeichnet.[CR][CR]Das [I]Performance[/I]-Profil konzentriert sich mehr auf die Ausführungsgeschwindigkeit als auf die Genauigkeit.</description>
 		<description lang="en_GB">bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.[CR][CR]The [I]Performance[/I] profile focuses more on execution speed than on accuracy.</description>
