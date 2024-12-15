@@ -29,10 +29,6 @@ msgctxt "Addon Disclaimer"
 msgid "In loving memory of Near / Byuu"
 msgstr "En cariñoso recuerdo de Near / Byuu"
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Ajustes"
-
 msgctxt "#30001"
 msgid "Allow settings to reduce accuracy"
 msgstr "Permitir Ajustes para Reducir Precisión"
@@ -60,3 +56,7 @@ msgstr "Recortar overscan"
 msgctxt "#30007"
 msgid "Gamma ramp (requires restart)"
 msgstr "Rampa Gamma (requiere reinicio)"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Ajustes"

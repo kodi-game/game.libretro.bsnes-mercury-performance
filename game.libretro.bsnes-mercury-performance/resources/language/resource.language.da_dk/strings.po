@@ -29,10 +29,6 @@ msgctxt "Addon Disclaimer"
 msgid "In loving memory of Near / Byuu"
 msgstr "I kærligt minde om Near / Byuu"
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Indstillinger"
-
 msgctxt "#30001"
 msgid "Allow settings to reduce accuracy"
 msgstr "Tillad indstillinger at reducere nøjagtigheden"
@@ -60,3 +56,7 @@ msgstr "Beskær overskandering"
 msgctxt "#30007"
 msgid "Gamma ramp (requires restart)"
 msgstr "Gammarampe (kræver genstart)"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Indstillinger"

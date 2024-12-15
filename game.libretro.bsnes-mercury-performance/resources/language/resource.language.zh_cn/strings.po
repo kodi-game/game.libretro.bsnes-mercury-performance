@@ -29,10 +29,6 @@ msgctxt "Addon Disclaimer"
 msgid "In loving memory of Near / Byuu"
 msgstr "怀念 Near / Byuu"
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "设置"
-
 msgctxt "#30001"
 msgid "Allow settings to reduce accuracy"
 msgstr "允许设置以降低精度"
@@ -60,3 +56,7 @@ msgstr "裁剪过度扫描"
 msgctxt "#30007"
 msgid "Gamma ramp (requires restart)"
 msgstr "Gamma 渐变（需要重新启动）"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "设置"

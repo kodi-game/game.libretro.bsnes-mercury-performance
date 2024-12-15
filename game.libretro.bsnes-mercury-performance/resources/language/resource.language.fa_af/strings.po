@@ -28,10 +28,6 @@ msgctxt "Addon Disclaimer"
 msgid "In loving memory of Near / Byuu"
 msgstr ""
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr ""
-
 msgctxt "#30001"
 msgid "Allow settings to reduce accuracy"
 msgstr ""

@@ -29,10 +29,6 @@ msgctxt "Addon Disclaimer"
 msgid "In loving memory of Near / Byuu"
 msgstr "Near / Byuu의 사랑을 기억하며"
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "설정"
-
 msgctxt "#30001"
 msgid "Allow settings to reduce accuracy"
 msgstr ""
@@ -60,3 +56,7 @@ msgstr ""
 msgctxt "#30007"
 msgid "Gamma ramp (requires restart)"
 msgstr ""
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "설정"
