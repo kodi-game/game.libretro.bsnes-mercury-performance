@@ -33,6 +33,7 @@
 		<summary lang="en_GB">Nintendo - SNES / SFC (bsnes-mercury Performance)</summary>
 		<summary lang="es_ES">Nintendo - SNES / SFC (bsnes-mercury Rendimiento)</summary>
 		<summary lang="it_IT">Nintendo - SNES / SFC (prestazioni bsnes-mercury)</summary>
+		<summary lang="ru_RU">Nintendo - SNES / SFC (bsnes-mercury Performance)</summary>
 		<summary lang="sv_SE">Nintendo - SNES / SFC (bsnes-mercury Performance)</summary>
 		<summary lang="zh_CN">任天堂 - SNES / SFC（bsnes-mercury 性能）</summary>
 		<description lang="da_DK">bSNES Mercury er en fork af Higan (oprindeligt kaldet bSNES), kendt for at emulere den originale hardware så nøjagtigt som muligt gennem lav-niveau, cyklus-nøjagtig emulering.[CR][CR][I]Ydeevne[/I]-profilen fokuserer mere på udførelseshastighed end på nøjagtighed.</description>
@@ -40,6 +41,7 @@
 		<description lang="en_GB">bSNES Mercury is a fork of Higan (originally called bSNES), notable for emulating the original hardware as accurately as possible through low-level, cycle-accurate emulation.[CR][CR]The [I]Performance[/I] profile focuses more on execution speed than on accuracy.</description>
 		<description lang="es_ES">bSNES Mercury es una bifurcación de Higan (originalmente llamado bSNES), que destaca por emular el hardware original con la mayor precisión posible mediante emulación de bajo nivel y precisión de ciclos.[CR][CR]El perfil [I]Performance[/I] se centra más en la velocidad de ejecución que en la precisión.</description>
 		<description lang="it_IT">bSNES Mercury è un fork di Higan (originariamente chiamato bSNES), noto per emulare l&apos;hardware originale nel modo più accurato possibile attraverso un&apos;emulazione di basso livello e accurata del ciclo.[CR][CR]Il profilo [I]Performance[/I] si concentra più sulla velocità di esecuzione che sulla precisione.</description>
+		<description lang="ru_RU">bSNES Mercury — это форк Higan (первоначально называвшийся bSNES), отличающийся максимально точной эмуляцией оригинального оборудования с помощью низкоуровневой эмуляции с точностью до цикла.[CR][CR]Профиль [I]Производительность[/I] больше фокусируется на скорости выполнения, чем на точности.</description>
 		<description lang="sv_SE">bSNES Mercury är en fork av Higan (ursprungligen kallad bSNES), känd för att emulera den ursprungliga hårdvaran så exakt som möjligt genom cykelnoggrann emulering på låg nivå.[CR][CR]Profilen [I]Performance[/I] fokuserar mer på exekveringshastighet än på noggrannhet.</description>
 		<description lang="zh_CN">bSNES Mercury 是 Higan（最初称为 bSNES）的一个分支，以通过低级别、周期精确的仿真尽可能精确地模拟原始硬件而著名。[CR][CR][I]性能[/I]配置更关注执行速度而不是准确性。</description>
 		<disclaimer lang="da_DK">I kærligt minde om Near / Byuu</disclaimer>
