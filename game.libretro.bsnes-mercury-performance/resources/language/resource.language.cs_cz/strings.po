@@ -56,3 +56,11 @@ msgstr "Oříznout overscan"
 msgctxt "#30007"
 msgid "Gamma ramp (requires restart)"
 msgstr "Gama rampa (vyžaduje restart)"
+
+msgctxt "#30008"
+msgid "ntsc"
+msgstr ""
+
+msgctxt "#30009"
+msgid "pal"
+msgstr ""

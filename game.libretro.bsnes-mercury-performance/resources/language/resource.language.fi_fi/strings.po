@@ -57,6 +57,14 @@ msgctxt "#30007"
 msgid "Gamma ramp (requires restart)"
 msgstr ""
 
+msgctxt "#30008"
+msgid "ntsc"
+msgstr ""
+
+msgctxt "#30009"
+msgid "pal"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Asetukset"
