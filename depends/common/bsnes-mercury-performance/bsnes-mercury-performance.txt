@@ -1,1 +1,1 @@
-bsnes-mercury-performance https://github.com/libretro/bsnes-mercury/archive/d83bf7ab607e09131731b3a81825f986f91c1f84.tar.gz
+bsnes-mercury-performance https://github.com/libretro/bsnes-mercury/archive/ea22363fb0c1ebe92e7a70cdf55e9bb43f9207be.tar.gz
